@@ -1,8 +1,9 @@
 (function (exports) {
-    function NoteListView() {
-       
+    function NoteListView(NoteList) {
+     var notelist = NoteList
     }
-    NoteListView.prototype.view = "New page"
+    NoteListView.prototype.view = function() {
+      return "New Page"
+    }
     exports.NoteListView = NoteListView
 })(this);
-
