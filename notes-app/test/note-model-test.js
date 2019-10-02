@@ -1,4 +1,6 @@
-(function() {
-  let note = new Note('hello');
-  let expected = 'hello'
-})(this);
+function showTextFunctionReturnsTheNoteText() {
+  note = new Note('My fav language is JS')
+  assert.isTrue(note.showtext() === 'My fav language is JS')
+}
+
+showTextFunctionReturnsTheNoteText()
