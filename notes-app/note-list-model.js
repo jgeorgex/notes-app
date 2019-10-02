@@ -7,8 +7,9 @@
     return this._notes;
   };
 
-  NoteList.prototype.addNew = function(text) {
-    this._notes.push(text);
+  NoteList.prototype.addNote = function(text) {
+    note = new Note(text)
+    this._notes.push(note);
   }
 
   exports.NoteList = NoteList;
