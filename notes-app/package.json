@@ -1,0 +1,22 @@
+{
+  "name": "npm-install-package",
+  "version": "1.0.0",
+  "description": "notes-app",
+  "main": "note-list-model.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "notes-app"
+  }
+}
