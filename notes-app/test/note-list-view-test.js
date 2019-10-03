@@ -1,8 +1,9 @@
-(function () {
-    notelist = new NoteList()
-    let noteListView = new NoteListView(notelist);
-    // let noteListView = noteListView.NoteList
-if (noteListView.view !== "New page"){
-  throw new Error("No new page available")
+function testNoteListViewReturnsHTMLForNoteList() {
+  notelist = new NoteList()
+  let noteListView = new NoteListView(notelist);
+  if (noteListView.view === "<html> <head> TESTARAMA! </head> <body> MORE TESTARAMA! </body> </html>"){
+    throw new Error("No new page available")
+  }
 }
-})(this);
+
+testNoteListViewReturnsHTMLForNoteList();
