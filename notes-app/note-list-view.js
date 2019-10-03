@@ -6,6 +6,6 @@
   NoteListView.prototype.view = function() {
     return "<html> <head> TESTARAMA! </head> <body> MORE TESTARAMA! </body> </html>"
   }
-  
+
   exports.NoteListView = NoteListView
 })(this);
