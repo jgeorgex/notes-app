@@ -4,7 +4,16 @@
   }
 
   NoteListView.prototype.view = function() {
-    return "<html> <head> TESTARAMA! </head> <body> MORE TESTARAMA! </body> </html>"
+
+    var arrayofnotes = notelist.allNotes()
+    var htmlnote = ""
+    for (var i = 0; i < arrayofnotes.length; i++) {
+      var singlenote = arrayofnotes[i]
+      var note = singlenote.text
+      htmlnote += "<li>" + note + "</li>"
+    }
+
+    return htmlnote
   }
 
   exports.NoteListView = NoteListView

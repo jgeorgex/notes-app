@@ -1,9 +1,9 @@
 var assert = {
-  isTrue: function(itemToCheck) {
+  isTrue: function(itemToCheck, testName) {
     if (!itemToCheck) {
-      console.log("Test failed because " + itemToCheck + " is false.")
+      console.log(testName + " Test failed because " + itemToCheck + " is false.")
     } else {
-      console.log("test passed")
+      console.log(testName + " test passed")
     }
   }
 }

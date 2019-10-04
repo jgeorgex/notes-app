@@ -3,14 +3,22 @@
 </head>
 <body>
   <div id="app">hello</div>
+  <script src="note-model.js"></script>
+  <script src="note-list-model.js"></script>
+  <script src="note-list-view.js"></script>
+  <script src="note-controller.js"></script>
+  <script src="test/test_helper.js"></script>
+  <script src="test/note-list-model-test.js"></script>
+  <script src="test/note-model-test.js"></script>
+  <script src="test/note-list-view-test.js"></script>
+  <script src="test/note-controller-test.js"></script>
+  <script>
+
+  notelist = new NoteList
+  notecontroller = new NoteController(notelist)
+  console.log(notecontroller)
+  notecontroller.outputHtml()
+
+   </script>
 </body>
-<script src="note-model.js"></script>
-<script src="note-list-model.js"></script>
-<script src="note-list-view.js"></script>
-<script src="note-controller.js"></script>
-<script src="test/test_helper.js"></script>
-<script src="test/note-list-model-test.js"></script>
-<script src="test/note-model-test.js"></script>
-<script src="test/note-list-view-test.js"></script>
-<script src="test/note-controller-test.js"></script>
 </html>
