@@ -6,7 +6,8 @@ function canBeInstantiated() {
 }
 
 function controllerOutputsHtml() {
-
+  testName = arguments.callee.name;
 }
 
 canBeInstantiated();
+controllerOutputsHtml();

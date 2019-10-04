@@ -7,7 +7,7 @@
 
   NoteController.prototype.outputHtml = function() {
       var elem = document.getElementById("app");
-      console.log(elem.innerHTML);
+      // console.log(elem.innerHTML);
       elem.innerHTML = this._noteListView.view();
   };
 

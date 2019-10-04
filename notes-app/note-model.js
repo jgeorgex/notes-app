@@ -5,6 +5,6 @@
   Note.prototype.showtext = function() {
     return this.text
   }
-console.log("console log?")
+
   exports.Note = Note;
 })(this);
