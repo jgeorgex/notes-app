@@ -33,5 +33,3 @@ testMethodReturnsTwoNoteInArray();
 testNoteListViewReturnsHTMLForNoteList();
 testMethodReturnsNoNotesInArray();
 testMethodReturnsOneNoteInArray();
-
-//<html> <head> TESTARAMA! </head> <body> MORE TESTARAMA! </body> </html>
